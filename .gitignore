@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*.bak
+*.backup
+*.sql
+*.gz
+*.zip
+*.enc
+
+# Local development files
+dist/
+coverage/
+*.local
+
+# Test artifacts
+/test-results/
+/coverage/
+/junit.xml
+
+# macOS
+.DS_Store
+._*
+
+# Logs
+logs/
+*.log
+
+# Config overrides
+config/local.*
+backup-config.local.yaml
+
+# Temporary files
+tmp/
+temp/

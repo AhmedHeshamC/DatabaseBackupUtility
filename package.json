@@ -1,0 +1,46 @@
+{
+  "name": "dbackup",
+  "version": "1.0.0",
+  "bin": {
+    "dbackup": "./src/cli/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.787.0",
+    "@azure/storage-blob": "^12.27.0",
+    "@google-cloud/storage": "^7.16.0",
+    "archiver": "^7.0.1",
+    "axios": "^1.8.4",
+    "better-sqlite3": "^11.9.1",
+    "commander": "^13.1.0",
+    "convict": "^6.2.4",
+    "dotenv": "^16.5.0",
+    "js-yaml": "^4.1.0",
+    "keytar": "^7.9.0",
+    "mongodb": "^6.15.0",
+    "mysql2": "^3.14.0",
+    "node-cron": "^3.0.3",
+    "pg": "^8.14.1",
+    "pino": "^9.6.0",
+    "sqlite3": "^5.1.7",
+    "unicorn-magic": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-jest": "^29.7.0",
+    "execa": "^9.5.2",
+    "jest": "^29.7.0",
+    "testcontainers": "^10.24.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!(testcontainers|execa|npm-run-path|unicorn-magic|is-plain-obj)/)"
+    ]
+  }
+}

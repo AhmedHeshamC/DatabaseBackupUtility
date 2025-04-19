@@ -1,0 +1,6 @@
+db:
+  database: testdb
+storage:
+  type: local
+notify:
+  slackWebhook: ''

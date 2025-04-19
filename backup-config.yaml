@@ -1,0 +1,8 @@
+db:
+  host: localhost
+  port: 5432        # 3306 for MySQL
+  user: postgres
+  password: root@22@
+  database: lead
+storage:
+  type: local
