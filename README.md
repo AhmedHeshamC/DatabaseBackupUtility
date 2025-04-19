@@ -178,7 +178,7 @@ test/                  # unit, integration, e2e
 ```
 ## Project URLs
 
-- [GitHub](
+- [GitHub](https://github.com/AhmedHeshamC/DatabaseBackupUtility)
 - https://roadmap.sh/projects/database-backup-utility
 
 ## 🤝 Contributing
